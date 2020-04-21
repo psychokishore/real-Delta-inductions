@@ -5,7 +5,7 @@ function toplay() {
      location.reload();
    }
    else{
-   	window.open("saik.html");
+   	window.open("game.html");
     localStorage.setItem("user",JSON.stringify(document.getElementById("userid").value));	
    }
 }
